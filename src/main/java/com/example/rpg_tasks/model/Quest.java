@@ -17,6 +17,14 @@ public class Quest {
     private String description;
     private int xpReward;
     private String difficulty;
-    private boolean completed;
+    private boolean completada;
+
+    public boolean isCompletada() {
+        return completada;
+    }
+
+    public void setCompletada(boolean completada) {
+        this.completada = completada;
+    }
     
 }
